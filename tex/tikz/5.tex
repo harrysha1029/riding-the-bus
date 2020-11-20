@@ -1,0 +1,65 @@
+
+\begin{tikzpicture}[>=latex,line join=bevel,]
+  \pgfsetlinewidth{1bp}
+%%
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw (32.0bp,16.0bp) node {$t=5$};
+\end{scope}
+  \pgfsetcolor{black}
+  % Edge: q_{0} -> q_{1}
+  \draw [->] (32.0bp,319.7bp) .. controls (32.0bp,311.98bp) and (32.0bp,302.71bp)  .. (32.0bp,284.1bp);
+  % Edge: q_{1} -> q_{2}
+  \draw [->] (32.0bp,247.7bp) .. controls (32.0bp,239.98bp) and (32.0bp,230.71bp)  .. (32.0bp,212.1bp);
+  % Edge: q_{2} -> q_{3}
+  \draw [->] (32.0bp,175.7bp) .. controls (32.0bp,167.98bp) and (32.0bp,158.71bp)  .. (32.0bp,140.1bp);
+  % Edge: q_{3} -> q_{4}
+  \draw [->] (32.0bp,103.7bp) .. controls (32.0bp,95.983bp) and (32.0bp,86.712bp)  .. (32.0bp,68.104bp);
+  % Node: q_{0}
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \definecolor{fillcol}{rgb}{0.2,1.0,1.0};
+  \pgfsetfillcolor{fillcol}
+  \filldraw [opacity=1] (32.0bp,338.0bp) ellipse (27.0bp and 18.0bp);
+  \draw (32.0bp,338.0bp) node {$q_{0}$};
+\end{scope}
+  % Node: q_{1}
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \definecolor{fillcol}{rgb}{0.55,1.0,1.0};
+  \pgfsetfillcolor{fillcol}
+  \filldraw [opacity=1] (32.0bp,266.0bp) ellipse (27.0bp and 18.0bp);
+  \draw (32.0bp,266.0bp) node {$q_{1}$};
+\end{scope}
+  % Node: q_{2}
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \definecolor{fillcol}{rgb}{0.81,1.0,1.0};
+  \pgfsetfillcolor{fillcol}
+  \filldraw [opacity=1] (32.0bp,194.0bp) ellipse (27.0bp and 18.0bp);
+  \draw (32.0bp,194.0bp) node {$q_{2}$};
+\end{scope}
+  % Node: q_{3}
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \definecolor{fillcol}{rgb}{0.75,1.0,1.0};
+  \pgfsetfillcolor{fillcol}
+  \filldraw [opacity=1] (32.0bp,122.0bp) ellipse (27.0bp and 18.0bp);
+  \draw (32.0bp,122.0bp) node {$q_{3}$};
+\end{scope}
+  % Node: q_{4}
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \definecolor{fillcol}{rgb}{0.69,1.0,1.0};
+  \pgfsetfillcolor{fillcol}
+  \filldraw [opacity=1] (32.0bp,50.0bp) ellipse (27.0bp and 18.0bp);
+  \draw (32.0bp,50.0bp) node {$q_{4}$};
+\end{scope}
+%
+\end{tikzpicture}
